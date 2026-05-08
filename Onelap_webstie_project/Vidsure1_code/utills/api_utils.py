@@ -2,7 +2,7 @@ class ApiUtils:
     def __init__(self, page):
         self.page = page
         self.crm_url = "https://test.onelap.in/api/ecom/order/search/v2"
-        self.crm_token = "Bearer Atza|eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2Mjk5MTM0NTA0Iiwic2NvcGVzIjpbIkFETUlOIiwiTU9ERVJBVE9SIl0sImV4cCI6MTc3ODIxNjIxM30.WR67eJk2AmD2PYdXHQON4_LFYgRSHfuAE9Sys9y7xCcGEeuFSyGe_BG2FfFZIBfitwrqk9Q00j9A1XQeL3NITQ"
+        self.crm_token = "Bearer Atza|eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2Mjk5MTM0NTA0Iiwic2NvcGVzIjpbIkFETUlOIiwiTU9ERVJBVE9SIl0sImV4cCI6MTc3ODMwNDA2OX0.G6i6JTaw0IHXQwwCyR9Vo1F4XKcBKmmpN0AOP5BUQ7xSlAx2qauRGA5MaknfO7CBUD3otRNUzFABGMg-vQ20DQ"
 
 
     # FUNCTION 1: Intercept API from UI
