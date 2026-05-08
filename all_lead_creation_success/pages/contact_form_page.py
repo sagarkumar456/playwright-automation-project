@@ -19,3 +19,4 @@ class ContactFormPage:
         self.page.fill(self.message, "Automation Testing Lead")
 
         self.page.click(self.submit)
+
