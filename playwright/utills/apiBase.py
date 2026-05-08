@@ -12,7 +12,7 @@ class APIUtils:
         #POST request (Login)
         response=api_request_context.post("/api/ecom/auth/login",
                                  data={"userEmail":"skdas1641999@gamil.com","userPassword":"sagardas456"})
-         #Assertion (PASS / FAIL)Agar status 200 / 201 → PASS
+         #Assertion (PASS / FAIL)Agar status 200 / 201 → PASS sagar
          #Agar 401 / 403 / 500 → FAIL (test fail ho jayega)
         assert response.ok
         #Response read

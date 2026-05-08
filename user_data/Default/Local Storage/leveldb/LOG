@@ -1,3 +1,6 @@
-2026/04/21-10:18:48.507 301a Reusing MANIFEST /Users/sagarkumar/PycharmProjects/PythonProject1/user_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/04/21-10:18:48.510 301a Recovering log #55
-2026/04/21-10:18:48.511 301a Reusing old log /Users/sagarkumar/PycharmProjects/PythonProject1/user_data/Default/Local Storage/leveldb/000055.log 
+2026/05/08-10:13:16.947 2c30 Reusing MANIFEST /Users/sagarkumar/PycharmProjects/PythonProject1/user_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/08-10:13:16.950 2c30 Recovering log #88
+2026/05/08-10:13:16.950 2c30 Reusing old log /Users/sagarkumar/PycharmProjects/PythonProject1/user_data/Default/Local Storage/leveldb/000088.log 
+2026/05/08-10:13:45.266 2c33 Level-0 table #92: started
+2026/05/08-10:13:45.269 2c33 Level-0 table #92: 10737 bytes OK
+2026/05/08-10:13:45.271 2c33 Delete type=0 #88

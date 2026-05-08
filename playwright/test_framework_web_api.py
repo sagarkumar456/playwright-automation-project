@@ -3,6 +3,7 @@ import time
 
 import pytest
 from playwright.sync_api import Playwright, expect
+from pytest_bdd import scenarios
 
 from pageObjects.login import LoginPage
 from pageObjects.dashborad import DashBoradpage
@@ -17,13 +18,13 @@ from utills.apiBaseFramework import APIUtils
 # APIUtils → reusable API logic
 
 #json file -> util -> access into test
-with open('/ai_chat_automation/data/messages.json') as f:
+with open('playwright/data/credentials.json') as f:
     test_data = json.load(f)
     print(test_data)
-    user_credential_List = test_data['user_credential']
+    user_credentials_list = test_data['user_credentials']
 
-@pytest.mark.parametrize('user_credentials', user_credential_List)
 
+@pytest.mark.parametrize('user_credentials', user_credentials_list)
 
 @pytest.mark.smoke
 def test_e2n_web_api(playwright: Playwright,browserInstance, user_credentials):

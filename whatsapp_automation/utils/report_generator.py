@@ -20,7 +20,7 @@ def generate_report():
     source_end = today.strftime("%Y-%m-%dT00:00:00")
 
     headers = {
-        "Authorization": "Bearer Atza|eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2Mjk5MTM0NTA0Iiwic2NvcGVzIjpbIkFETUlOIl0sImV4cCI6MTc3NjgzMzI3OH0.4W5DyLUy17ZAmCZ3R3TP6HVUHgG30fD-naFlaQgdxJ6YzlKGcZpFWldyitxIWjJ2e7kcgli0ndLZKnVo4-2xHw",
+        "Authorization": "Bearer Atza|eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2Mjk5MTM0NTA0Iiwic2NvcGVzIjpbIkFETUlOIl0sImV4cCI6MTc3ODMwMTcyNn0.r4-NEY7My3NcC5Y4xYZoFEiaPLnC2TRpg-i2C3zYv_dtl0M_HEcrTVNkN5xAKZwmHzE6ASsmOVjLBvStbTkEnQ",
         "Content-Type": "application/json"
     }
 

@@ -10,24 +10,24 @@ class WhatsAppPage:
         self.page.wait_for_timeout(15000)  # QR login time
 
     def search_group(self, group_name):
-        # exact search input using placeholder (100% stable)
+        # Search box
         search_box = self.page.get_by_placeholder("Search or start a new chat")
-
         search_box.wait_for(state="visible", timeout=60000)
         search_box.click()
         search_box.fill(group_name)
 
-        # wait for group
-        self.page.get_by_title(group_name).wait_for(timeout=30000)
-
-        # click group
-        self.page.get_by_title(group_name).click()
+        # Wait & select correct chat (FIXED)
+        chat = self.page.locator(f"span[title='{group_name}']").last
+        chat.wait_for(state="visible", timeout=30000)
+        chat.click()
 
     def send_message(self, message):
-        message_box = self.page.locator("//footer//div[@contenteditable='true']")
+        # More stable message box selector
+        message_box = self.page.locator("footer div[contenteditable='true']")
 
         message_box.wait_for(state="visible", timeout=30000)
         message_box.click()
         message_box.fill(message)
 
+        # Send message
         message_box.press("Enter")
