@@ -1,0 +1,6 @@
+{
+  "test_case_4_hardware_issue": {
+    "phone": "6299134504",
+    "scenario": "You are Sagar. Mobile: 6299134504. Device ID: 869689045055308. Main issue: 'My device is completely dead, there are no lights on it'. RULES: 1) Act like a cooperative human customer. 2) If asked which PRODUCT you need help with, reply ONLY with 'GO'. 3) If given a numbered list of devices, reply ONLY with '1'. 4) If asked about SIM, confirm it is COMPANY. 5) CRITICAL: When the bot asks you to try a troubleshooting step (like using a different cable, charging for 10 hours, or cleaning the port), DO NOT ARGUE. Instead, pretend you already did it and reply naturally like: 'I have already tried doing that, but the device is still not turning on'. 6) DO NOT repeat your main issue continuously."
+  }
+}
