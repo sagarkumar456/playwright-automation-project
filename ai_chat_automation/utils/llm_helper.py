@@ -1,7 +1,8 @@
 from openai import OpenAI
 
 # YOUR ACTUAL API KEY HERE
-API_KEY = "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"
+API_KEY = "api key"
+
 
 client = OpenAI(
     api_key=API_KEY,
